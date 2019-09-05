@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+  <link href="fontawesome-free-5.10.2-web/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="MBP.css">
+  <title>Mon Blan Project</title>
+</head>
+<body>
+  <div class="wrapper">
+
+<!-- header  -->
+
+  <header class="header">
+
+<!-- logo in header  -->
+
+      <div class="profile-container-logo"><img src="logo.png" alt="logo"></div>
+
+<!-- end of logo in header  -->
+
+<!-- profile info in header  -->
+
+      <div class="profile-wrapper">
+
+<!-- 1st row of profile info in header  -->
+
+        <div class="profile-container-name">
+          <span class="profile-name">monblanproject</span>
+          <span class="profile-srart-date">Start on 17-02-2016</span>
+        </div>
+
+<!-- end of 1st row of profile info in header  -->
+
+<!-- 2nd row of profile info in header  -->
+
+        <div class="profile-container-datas">
+          <span class="profile-posts-datas"><strong>870</strong> posts</span>
+          <span class="profile-followers-datas"><strong>11,787</strong> followers</span>
+          <span class="profile-following-datas"><strong>112</strong> following</span>
+        </div>
+
+<!-- end of 2nd row of profile info in header  -->
+
+<!-- 3rd row of profile info in header  -->
+
+        <div class="profile-container-dates-filter">
+          <form action="">
+            <label for="" class="profile-date-label">Date</label>
+            <span class="profile-from-date">
+              <input id="from" type="text" name="date-from" size="10" placeholder="from">
+              <span class="calendar-button">
+                <i class="fas fa-times" id="from-clear"></i>
+                <i class="far fa-calendar-alt" id="from-button"></i>
+              </span>
+            </span>
+            <span class="profile-to-date">
+              <input id="to" type="text" name="date-to" size="10" placeholder="to">
+              <span class="calendar-button">
+                  <i class="fas fa-times" id="to-clear"></i>
+                  <i class="far fa-calendar-alt" id="to-button"></i>
+                </span>            </span>
+          </form>
+        </div>
+
+<!-- end of 3rd row of profile info in header  -->
+
+      </div>
+
+<!-- end of profile info in header  -->
+
+  </header>
+
+<!-- end of header  -->
+
+<!-- main or images container -->
+
+  <main class="images-container">
+
+    <div class="images-container-item">
+      <img src="1st_image.png" alt="img">
+        <div class="hover-container-item">
+          <div class="hover-container-row-static">
+            <div class="hover-container-row-static-today">
+              <span class="row-static-data">Today</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>128</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>31</span>
+            </div>
+            <div class="hover-container-row-static-date">
+              <span class="row-static-data">9-08-2016</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>67</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>22</span>
+            </div>
+
+          </div>
+          
+          <div class="hover-container-row-upload">Image upload: <span class="hover-container-date-upload"> 11-04-2016</span>
+          </div>
+        </div>
+    </div>
+
+    <div class="images-container-item">
+      <img src="2nd_image.png" alt="img">
+      <div class="hover-container-item">
+          <div class="hover-container-row-static">
+            <div class="hover-container-row-static-today">
+              <span class="row-static-data">Today</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>128</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>31</span>
+            </div>
+            <div class="hover-container-row-static-date">
+              <span class="row-static-data">9-08-2016</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>67</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>22</span>
+            </div>
+
+          </div>
+          
+          <div class="hover-container-row-upload">Image upload: <span class="hover-container-date-upload"> 11-04-2016</span>
+          </div>
+        </div>
+    </div>
+    
+    <div class="images-container-item video-item">
+      <img src="3rd_image.png" alt="img">
+        <span class="item-video-element"><img src="video.svg" alt="img"></span>
+        <div class="hover-container-item">
+            <div class="hover-container-row-static">
+              <div class="hover-container-row-static-today">
+                <span class="row-static-data">Today</span>
+                <span class="row-static-data">
+                  <i class="fas fa-heart"></i>128</span>
+                <span class="row-static-data">
+                  <i class="fas fa-comment-alt"></i>31</span>
+              </div>
+              <div class="hover-container-row-static-date">
+                <span class="row-static-data">9-08-2016</span>
+                <span class="row-static-data">
+                  <i class="fas fa-heart"></i>67</span>
+                <span class="row-static-data">
+                  <i class="fas fa-comment-alt"></i>22</span>
+              </div>
+  
+            </div>
+            
+            <div class="hover-container-row-upload">Image upload: <span class="hover-container-date-upload"> 11-04-2016</span>
+            </div>
+          </div>
+    </div> 
+
+    <div class="images-container-item">
+      <img src="4th_image.png" alt="img">
+      <div class="hover-container-item">
+          <div class="hover-container-row-static">
+            <div class="hover-container-row-static-today">
+              <span class="row-static-data">Today</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>128</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>31</span>
+            </div>
+            <div class="hover-container-row-static-date">
+              <span class="row-static-data">9-08-2016</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>67</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>22</span>
+            </div>
+
+          </div>
+          
+          <div class="hover-container-row-upload">Image upload: <span class="hover-container-date-upload"> 11-04-2016</span>
+          </div>
+        </div>
+    </div>
+
+    <div class="images-container-item video-item">
+      <img src="5th_image.png" alt="img">
+      <span class="item-video-element"><img src="video.svg" alt="img"></span>
+      <div class="hover-container-item">
+          <div class="hover-container-row-static">
+            <div class="hover-container-row-static-today">
+              <span class="row-static-data">Today</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>128</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>31</span>
+            </div>
+            <div class="hover-container-row-static-date">
+              <span class="row-static-data">9-08-2016</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>67</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>22</span>
+            </div>
+
+          </div>
+          
+          <div class="hover-container-row-upload">Image upload: <span class="hover-container-date-upload"> 11-04-2016</span>
+          </div>
+        </div>
+    </div> 
+    <div class="images-container-item">
+      <img src="6th_image.png" alt="img">
+      <div class="hover-container-item">
+          <div class="hover-container-row-static">
+            <div class="hover-container-row-static-today">
+              <span class="row-static-data">Today</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>128</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>31</span>
+            </div>
+            <div class="hover-container-row-static-date">
+              <span class="row-static-data">9-08-2016</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>67</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>22</span>
+            </div>
+
+          </div>
+          
+          <div class="hover-container-row-upload">Image upload: <span class="hover-container-date-upload"> 11-04-2016</span>
+          </div>
+        </div>
+    </div>
+
+    <div class="images-container-item">
+      <img src="7th_image.png" alt="img">
+      <div class="hover-container-item">
+          <div class="hover-container-row-static">
+            <div class="hover-container-row-static-today">
+              <span class="row-static-data">Today</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>128</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>31</span>
+            </div>
+            <div class="hover-container-row-static-date">
+              <span class="row-static-data">9-08-2016</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>67</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>22</span>
+            </div>
+
+          </div>
+          
+          <div class="hover-container-row-upload">Image upload: <span class="hover-container-date-upload"> 11-04-2016</span>
+          </div>
+        </div>
+    </div>
+
+    <div class="images-container-item">
+      <img src="8th_image.png" alt="img">
+      <div class="hover-container-item">
+          <div class="hover-container-row-static">
+            <div class="hover-container-row-static-today">
+              <span class="row-static-data">Today</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>128</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>31</span>
+            </div>
+            <div class="hover-container-row-static-date">
+              <span class="row-static-data">9-08-2016</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>67</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>22</span>
+            </div>
+
+          </div>
+          
+          <div class="hover-container-row-upload">Image upload: <span class="hover-container-date-upload"> 11-04-2016</span>
+          </div>
+        </div>
+    </div>
+
+    <div class="images-container-item">
+      <img src="9th_image.png" alt="img">
+      <div class="hover-container-item">
+          <div class="hover-container-row-static">
+            <div class="hover-container-row-static-today">
+              <span class="row-static-data">Today</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>128</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>31</span>
+            </div>
+            <div class="hover-container-row-static-date">
+              <span class="row-static-data">9-08-2016</span>
+              <span class="row-static-data">
+                <i class="fas fa-heart"></i>67</span>
+              <span class="row-static-data">
+                <i class="fas fa-comment-alt"></i>22</span>
+            </div>
+
+          </div>
+          
+          <div class="hover-container-row-upload">Image upload: <span class="hover-container-date-upload"> 11-04-2016</span>
+          </div>
+        </div>
+    </div>
+
+
+  </main>
+  
+<!-- end of images container -->
+
+<!-- footer or button container -->
+
+<footer class="button-container">
+
+<a href="#" class="button-load-more"><span class="button-load-more-title">Load more</span></a>
+
+</footer>
+
+<!-- end of button containerr -->
+
+  </div>
+
+  <script src="Pickaday/pikaday.js"></script>
+<script>
+
+var picker = new Pikaday({
+    field: document.getElementById('from'),
+    trigger:  document.getElementById('from-button'),
+    format: 'D/M/YYYY',
+    toString(date, format) {
+        // you should do formatting based on the passed format,
+        // but we will just return 'D/M/YYYY' for simplicity
+        const day = date.getDate();
+        const month = date.getMonth() + 1;
+        const year = date.getFullYear();
+        return `${day}_${month}_${year}`;
+    },
+    parse(dateString, format) {
+        // dateString is the result of `toString` method
+        const parts = dateString.split('/');
+        const day = parseInt(parts[0], 10);
+        const month = parseInt(parts[1], 10) - 1;
+        const year = parseInt(parts[2], 10);
+        return new Date(year, month, day);
+    },
+});
+
+var picker = new Pikaday({
+    field: document.getElementById('to'),
+    trigger:  document.getElementById('to-button'),
+    format: 'D/M/YYYY',
+    toString(date, format) {
+        // you should do formatting based on the passed format,
+        // but we will just return 'D/M/YYYY' for simplicity
+        const day = date.getDate();
+        const month = date.getMonth() + 1;
+        const year = date.getFullYear();
+        return `${day}_${month}_${year}`;
+    },
+    parse(dateString, format) {
+        // dateString is the result of `toString` method
+        const parts = dateString.split('/');
+        const day = parseInt(parts[0], 10);
+        const month = parseInt(parts[1], 10) - 1;
+        const year = parseInt(parts[2], 10);
+        return new Date(year, month, day);
+    }
+});</script>
+</body>
+</html>

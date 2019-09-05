@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('fonts/MyriadPro-Regular/MyriadPro-Regular.eot');
+  src: url('fonts/MyriadPro-Regular/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('fonts/MyriadPro-Regular/MyriadPro-Regular.woff') format('woff'),
+  url('fonts/MyriadPro-Regular/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('fonts/Helvetica Neue/HelveticaNeue.eot');
+  src: url('fonts/Helvetica Neue/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Helvetica Neue/HelveticaNeue.woff') format('woff'),
+  url('fonts/Helvetica Neue/HelveticaNeue.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('fonts/Proxima Nova/ProximaNova-Regular.eot');
+  src: url('fonts/Proxima Nova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Proxima Nova/ProximaNova-Regular.woff') format('woff'),
+  url('fonts/Proxima Nova/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tahoma';
+  src: url('fonts/Tahoma/Tahoma.eot');
+  src: url('fonts/Tahoma/Tahoma.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Tahoma/Tahoma.woff') format('woff'),
+  url('fonts/Tahoma/Tahoma.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
